@@ -16,3 +16,7 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.search-field .v-input__details {
+  display: none !important;
+}
