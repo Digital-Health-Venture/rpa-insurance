@@ -11,6 +11,7 @@ export default {
       },
       boxShadow: {
         s: '0px 1px 9px 0px rgba(108, 108, 108, 0.25)',
+        m: '0px -13px 20px 0px rgba(0, 0, 0, 0.05)',
       },
       colors: {
         gray: {
