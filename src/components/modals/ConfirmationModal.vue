@@ -12,7 +12,7 @@
           {{ description }}
         </div></v-card-text
       >
-      <v-card-actions class="justify-center px-4 py-4 mb-[14px]">
+      <v-card-actions class="flex flex-col-reverse sm:flex-row justify-center px-4 py-4 mb-[14px]">
         <v-btn
           variant="flat"
           color="#BFBFBF"
