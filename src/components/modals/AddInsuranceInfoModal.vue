@@ -76,7 +76,7 @@ import { INSURANCE_COMPANY_OPTIONS } from '../../constants/options'
 import type { Company } from '../../types/Company'
 
 export default defineComponent({
-  name: 'ConfirmationModal',
+  name: 'AddInsuranceInfoModal',
   emits: ['cancel', 'confirm'],
   data() {
     return {
