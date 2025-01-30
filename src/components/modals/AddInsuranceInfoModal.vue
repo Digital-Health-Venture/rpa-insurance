@@ -27,6 +27,7 @@
             prepend-inner-icon="mdi-magnify"
             menu-icon=""
             class="w-full"
+            :error-messages="searchError ? [searchError] : []"
           >
             <template #item="{ item, props }">
               <v-list-item v-bind="props">
@@ -77,6 +78,11 @@ import type { Company } from '../../types/Company'
 export default defineComponent({
   name: 'ConfirmationModal',
   emits: ['cancel', 'confirm'],
+  data() {
+    return {
+      searchError: '', // waiting to set to be = ERROR_NOT_FOUND when no result from api
+    }
+  },
   setup(_, { emit }) {
     const isVisible = ref(true)
 
