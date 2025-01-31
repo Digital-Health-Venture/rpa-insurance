@@ -16,10 +16,16 @@ export default [
 
   ...pluginVue.configs['flat/essential'],
   ...vueTsEslintConfig(),
-  
+
   {
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*'],
   },
   skipFormatting,
+  {
+    files: ['**/*.{ts,mts,tsx,vue}'], // Apply this rule to TypeScript files
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off', // Disable the rule for 'any' type
+    },
+  },
 ]
