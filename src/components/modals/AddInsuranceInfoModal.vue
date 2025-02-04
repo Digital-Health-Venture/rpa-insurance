@@ -95,7 +95,7 @@ export default defineComponent({
 
     const confirm = () => {
       isVisible.value = false
-      emit('confirm')
+      emit('confirm', selectedCompany.value);
     }
 
     return {
