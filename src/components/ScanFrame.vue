@@ -3,19 +3,19 @@
   <div class="absolute inset-0 pointer-events-none hidden md:flex">
     <!-- Top-Left Corner -->
     <div
-      class="absolute top-20 left-20 w-6 h-6 md:w-8 md:h-8 border-t-4 border-l-4 border-white"
+      class="absolute top-20 left-20 w-6 h-6 md:w-8 md:h-8 border-t-2 border-l-2 border-white"
     ></div>
     <!-- Top-Right Corner -->
     <div
-      class="absolute top-20 right-20 w-6 h-6 md:w-8 md:h-8 border-t-4 border-r-4 border-white"
+      class="absolute top-20 right-20 w-6 h-6 md:w-8 md:h-8 border-t-2 border-r-2 border-white"
     ></div>
     <!-- Bottom-Left Corner -->
     <div
-      class="absolute bottom-20 left-20 w-6 h-6 md:w-8 md:h-8 border-b-4 border-l-4 border-white"
+      class="absolute bottom-20 left-20 w-6 h-6 md:w-8 md:h-8 border-b-2 border-l-2 border-white"
     ></div>
     <!-- Bottom-Right Corner -->
     <div
-      class="absolute bottom-20 right-20 w-6 h-6 md:w-8 md:h-8 border-b-4 border-r-4 border-white"
+      class="absolute bottom-20 right-20 w-6 h-6 md:w-8 md:h-8 border-b-2 border-r-2 border-white"
     ></div>
   </div>
 </template>
