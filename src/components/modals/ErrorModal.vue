@@ -4,14 +4,14 @@
       <div class="flex flex-col justify-center items-center">
         <v-card-text>
           <div
-            class="text-black font-prompt text-center text-[20px] font-normal leading-normal mt-[14px]"
+            class="text-black font-prompt text-center text-[20px] font-normal leading-normal mt-[14px] text-wrap"
           >
             เกิดข้อผิดพลาด
           </div>
         </v-card-text>
         <v-card-text
           ><div
-            class="text-center text-black font-prompt text-[16px] font-normal leading-normal max-w-[320px]"
+            class="text-center text-black font-prompt text-[16px] font-normal leading-normal max-w-[320px] text-wrap"
           >
             กรุณาลองใหม่อีกครั้งหรือใช้วิธีกรอกข้อมูลแทน
           </div></v-card-text

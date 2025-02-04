@@ -4,7 +4,7 @@
       <div class="flex flex-col justify-center items-center">
         <v-card-text>
           <div
-            class="text-black font-prompt text-center text-[20px] font-normal leading-normal mt-[14px]"
+            class="text-black font-prompt text-center text-[20px] font-normal leading-normal mt-[14px] text-wrap"
           >
             ข้อมูลประกัน
           </div>
